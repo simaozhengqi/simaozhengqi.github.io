@@ -134,7 +134,7 @@ $(window).scroll(function(){
 	console.log(windowTop);
 	console.log(section);
 
-	if(windowTop < (front1-100)){
+	if(windowTop < (front1-200)){
       disappear();
       disappear2();
       disappear3();
@@ -151,7 +151,7 @@ $(window).scroll(function(){
       disappear3_3();
 	}
 
-	if(windowTop >= (front1-100) && windowTop < (front2-100) && section[0]==0){
+	if(windowTop >= (front1-200) && windowTop < (front2-200) && section[0]==0){
 		if(a==0){
 			 $("#menu").find("option[value='importance']").attr("selected",true);
   		main0();
@@ -190,7 +190,7 @@ $(window).scroll(function(){
 		}
 	}
 
-	if(windowTop >= (front2-100) && windowTop < (front3-100) && section[1]==0){
+	if(windowTop >= (front2-200) && windowTop < (front3-200) && section[1]==0){
 		if(b==0){
 		 $("#menu").find("option[value='stoning']").attr("selected",true);
   		main1();
@@ -213,7 +213,7 @@ $(window).scroll(function(){
     }
 	}
 
-	if(windowTop >= (front3-100) && windowTop < (front4-100) && section[2]==0){
+	if(windowTop >= (front3-200) && windowTop < (front4-200) && section[2]==0){
 		if(c==0){
 		 $("#menu").find("option[value='concerned']").attr("selected",true);
   		main2();
@@ -236,7 +236,7 @@ $(window).scroll(function(){
 	}
 	}
 
-	if(windowTop >= (front4-100) && windowTop < (front5-100) && section[3]==0){
+	if(windowTop >= (front4-200) && windowTop < (front5-100) && section[3]==0){
 		if(d==0){
 		main3();
 		changeSection(3)
@@ -280,7 +280,7 @@ $(window).scroll(function(){
 	}
 	}
 
-	if(windowTop >= (front6-100) && windowTop < (front7-200) && section[5]==0){
+	if(windowTop >= (front6-100) && windowTop < (front7-100) && section[5]==0){
 		if(f==0){
     	main5();
     	changeSection(5)
@@ -318,7 +318,7 @@ $(window).scroll(function(){
     }
 	}
 
-	if(windowTop >= (front7+100) && windowTop < (front2_1-100) &&section[6]==0){
+	if(windowTop >= (front7-100) && windowTop < (front2_1-200) &&section[6]==0){
   		changeSection(6)
   		disappear();
       disappear2();
@@ -340,7 +340,7 @@ $(window).scroll(function(){
 
 
 
-	if(windowTop >= (front2_1-100) && windowTop < (front2_2-200) && section[7]==0){
+	if(windowTop >= (front2_1-200) && windowTop < (front2_2-200) && section[7]==0){
       if (a3==0){
       main12();
       changeSection(7);
