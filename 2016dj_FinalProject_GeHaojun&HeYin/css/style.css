@@ -1,0 +1,663 @@
+body {
+  margin: 0;
+  background-color: #e5c1a3;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#graphic {
+  padding-top: 60px;
+}
+
+.front_part .title {
+  font-family: Arial,Helvetica,"san-serif";
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #262626;
+  line-height: 1.2em;
+  margin-left: 100px;
+}
+
+.front_part2 .title {
+  font-family: Arial,Helvetica,"san-serif";
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #262626;
+  line-height: 1.2em;
+  margin-left: 800px;
+  margin-right: 100px;
+}
+
+#vis1 {
+  display: none;
+  position: fixed;
+  top: 160px;
+  z-index: 10;
+  margin-left: 0;
+  font-size: 10px;
+}
+
+#vis2 {
+  display: none;
+  position: fixed;
+  top: 160px;
+  z-index: 10;
+  margin-left: 0;
+  font-size: 10px;
+}
+
+#vis3 {
+  display: none;
+  position: fixed;
+  top: 160px;
+  z-index: 10;
+  margin-left: 0;
+  font-size: 10px;
+}
+
+#vis4 {
+  display: block;
+  position: fixed;
+  top: 160px;
+  z-index: 10;
+  margin-left: 0;
+  font-size: 10px;
+}
+
+#vis5 {
+  display: none;
+  position: fixed;
+  top: 160px;
+  z-index: 10;
+  margin-left: 0;
+  font-size: 10px;
+}
+
+#vis6 {
+  display: none;
+  position: fixed;
+  top: 160px;
+  z-index: 1;
+  margin-left: 0;
+  font-size: 10px;
+}
+
+#page_header {
+  position: relative;
+  margin: 50px 20px 20px 50px;
+  z-index: 2;
+  width: 600px;
+  display: block;
+}
+
+.cover h1{
+  margin-top:-700px;
+  padding-top:165px;
+  padding-bottom: 210px;
+  position:absolute;
+  left:0px;
+  background-color:rgba(255,255,255,0.5);
+  display:block;
+  width:100%;
+  color:#530606;
+  font-family:"Trajan Pro 3", "黑体", "宋体";
+  font-size:90px;
+  font-weight: bolder;
+  text-align:center;
+  opacity:1;
+  z-index: 50;
+}
+
+.cover h2{
+  margin-top:-600px;
+  padding-top:200px;
+  padding-bottom: 200px;
+  position:absolute;
+  left:0px;
+  background-color:rgba(255,255,255,0);
+  display:block;
+  width:100%;
+  color:#530606;
+  font-family:"Trajan Pro 3", "黑体", "宋体";
+  font-size:90px;
+  font-weight: bolder;
+  text-align:center;
+  opacity:1;
+  z-index: 50;
+}
+
+.cover2{
+	margin-top: 150px;
+}
+
+.cover2 h1{
+  margin-top: -670px;
+  padding-top:110px;
+  padding-bottom: 240px;
+  position:absolute;
+  left:0px;
+  background-color:rgba(255,255,255,0.5);
+  display:block;
+  width:100%;
+  color:#530606;
+  font-family:"Trajan Pro 3", "黑体", "宋体";
+  font-size:80px;
+  font-weight: bold;
+  text-align:center;
+  opacity:1;
+}
+
+.cover2 h2{
+  margin-top: -600px;
+  padding-top:150px;
+  padding-bottom: 150px;
+  position:absolute;
+  left:0px;
+  background-color:rgba(255,255,255,0);
+  display:block;
+  width:100%;
+  color:#530606;
+  font-family:"Trajan Pro 3", "黑体", "宋体";
+  font-size:80px;
+  font-weight: bold;
+  text-align:center;
+  opacity:1;
+}
+
+.cover3 h1{
+  margin-top:-700px;
+  padding-top:100px;
+  padding-bottom: 280px;
+  position:absolute;
+  left:0px;
+  background-color:rgba(255,255,255,0.5);
+  display:block;
+  width:100%;
+  color:#530606;
+  font-family:"Trajan Pro 3", "黑体", "宋体";
+  font-size:90px;
+  font-weight: bolder;
+  text-align:center;
+  opacity:1;
+  z-index: 50;
+}
+
+.cover3 h2{
+  margin-top:-690px;
+  padding-top:200px;
+  padding-bottom: 200px;
+  position:absolute;
+  left:0px;
+  background-color:rgba(255,255,255,0);
+  display:block;
+  width:100%;
+  color:#530606;
+  font-family:"Trajan Pro 3", "黑体", "宋体";
+  font-size:90px;
+  font-weight: bolder;
+  text-align:center;
+  opacity:1;
+  z-index: 50;
+}
+
+p {
+  padding: 20px 300px;
+  font-size:20px;
+}
+/*以上是html内容*/
+
+#menu {
+  padding: 20px 75px;
+  z-index: 1;
+  display: none;
+}
+
+#menu select {
+  background: #ccc;
+  width: 220px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  display: none;
+}
+
+.labels1 {
+  fill: white;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.chartTitle{
+  font-size: 16px;
+  font-family: Arial,Helvetica,"san-serif";
+  color: #673131;
+  font-weight: bold;
+}
+/*以上是update bar内容*/
+
+path.line {
+  fill: none;
+  stroke-width: 2px;
+  margin-right: 100px;
+}
+
+circle, path:hover {
+  cursor: pointer;
+}
+
+#focused {
+  stroke: #f1e028;
+  stroke-width: 2px;
+}
+
+.axis line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.axis path{
+  stroke:white;
+  stroke-width: 0px;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.tooltip_lines{
+  position: absolute;
+  z-index: 99;
+}
+
+.tooltip_lines p {
+  background-color: #e5c1a3;
+  color: #9a2222;
+  border: #9a2222 1px solid;
+  padding: 2px;
+  text-align: left;
+  font-size: 12px;
+  z-index: 99;
+}
+
+.tooltip{
+  position: absolute;
+  z-index: 10;
+}
+
+.tooltip p {
+  background-color: #e5c1a3;
+  color: #9a2222;
+  border: #9a2222 1px solid;
+  padding: 2px;
+  text-align: left;
+  font-size: 12px;
+  z-index: 99;
+}
+
+g.highlight path {
+    stroke: #9a2222;
+    stroke-width: 2px;
+}
+
+text.linelabel {
+    font-size: 9pt;
+    fill: #555555;
+    margin: 2px;
+}
+
+text.linelabel_focus {
+    font-size: 9pt;
+    fill: #9a2222;
+    margin: 2px;
+}
+/*以上是multiple lines内容*/
+
+.mapPath {
+  stroke: #e5c1a3;
+  stroke-width: .5px;
+}
+
+.legendLinear text {
+  font-size: 10px;
+}
+
+.legendLinear2 text {
+  font-size: 10px;
+}
+
+.legendLinear2{
+  display: none;
+}
+
+#christ{
+  margin-left:0px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+#muslims{
+  margin-left:0px;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+.front_container2 {
+  width: 100vw;
+  margin: 50vh auto;
+  padding: 10px;
+}
+
+#chart6 {
+  padding-top: 80px;
+  padding-left: 160px;
+}
+
+#chart7 {
+  padding-top: 80px;
+  padding-left: 160px;
+}
+
+.ending {
+  width: 1500px;
+  margin-bottom: 200px;
+  margin-top: 0px;
+}
+
+circle:hover {
+  fill: #f1e028;
+}
+
+.front_container3 {
+  width: 100vw;
+  margin: 0;
+  padding: 10px;
+  height: 50px;
+}
+
+footer {
+  text-align: left;
+  background-color: #846649;
+  padding-left: 0;
+  width: 1500px;
+}
+
+footer p{
+  font-size: 12px;
+  line-height: 2em;
+}
+
+.source p{
+  font-size: 14px;
+  padding-top: 40px;
+  width: 1500px;
+}
+
+#chart3 {
+  margin-right: 12px;
+  margin-top: 150px;
+}
+
+#chart4 {
+  margin-right: 140px;
+  margin-top: 120px;
+}
+
+#chart5 {
+  margin-right: 120px;
+  margin-top: 120px;
+}
+
+.label {
+  font-size: 12px;
+  font-family: Arial,Helvetica,"san-serif";
+  font-weight: bold;
+}
+
+
+.yTitle {
+  font-size: 12px;
+}
+
+.back2,#christ,#muslims svg {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.back svg {
+  padding-left: 30px;
+  padding-right: 60px;
+  padding-top: 0px;
+}
+
+.back2 svg{
+  padding-top: 0;
+}
+
+.jpg {
+  padding-top: 200px;
+  padding-left: 50px;
+  float: left;
+}
+
+.arrow{
+  height: 50px;
+  margin-left: 700px;
+  margin-bottom: 10px;
+  z-index: 99;
+}
+
+.ending img{
+  padding: 20px 580px;
+  text-align: center;
+}
+
+.chart_explain p{
+  font-size: 16px;
+  font-family: "san-serif",Arial,Helvetica;
+  padding: 0;
+  padding-left: 160px;
+  padding-top: 50px;
+  line-height: 1.2em;
+  color: #673131;
+  font-weight: bold;
+}
+
+.right_arrow{
+  float: left;
+  margin-left: 600px;
+  margin-top: -90px;
+}
+
+.right_arrow2{
+  float: left;
+  margin-left: 600px;
+  margin-top: -60px;
+}
+
+.icon{
+  float: left;
+  margin-left: 100px;
+  margin-top: -140px;
+}
+
+.icon2{
+  float: left;
+  margin-left: 100px;
+  margin-top: -120px;
+}
+
+.icon3{
+  float: left;
+  margin-left: 100px;
+  margin-top: -100px;
+}
+
+.icon4{
+  float: left;
+  margin-left: 100px;
+  margin-top: -65px;
+}
+
+.clearfix:after{
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both;
+}
+
+.chart_explain .title{
+  font-family: Arial,Helvetica,"san-serif";
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  line-height: 1.2em;
+  color: #673131;
+  margin-left: 900px;
+  margin-right: 100px;
+}
+
+.left_arrow{
+  float: left;
+  margin-left: 760px;
+  margin-top: -85px;
+}
+
+.left_arrow2{
+  float: left;
+  margin-left: 760px;
+  margin-top: -120px;
+}
+
+.left_arrow3{
+  float: left;
+  margin-left: 760px;
+  margin-top: -100px;
+}
+
+.left_arrow4{
+  float: left;
+  margin-left: 760px;
+  margin-top: -100px;
+}
+
+.left_arrow5{
+  float: left;
+  margin-left: 760px;
+  margin-top: -130px;
+}
+
+.icon10{
+  float: left;
+  margin-left: 835px;
+  margin-top: -120px;
+}
+
+.icon6{
+  float: left;
+  margin-left: 835px;
+  margin-top: -175px;
+}
+
+.icon7{
+  float: left;
+  margin-left: 835px;
+  margin-top: -140px;
+}
+
+.icon8{
+  float: left;
+  margin-left: 835px;
+  margin-top: -140px;
+}
+
+.icon9{
+  float: left;
+  margin-left: 835px;
+  margin-top: -130px;
+}
+
+.icon0{
+  float: left;
+  margin-left: 300px;
+  margin-top: -240px;
+}
+
+.right_arrow3{
+  float: left;
+  margin-left: 600px;
+  margin-top: -90px;
+}
+
+.icon5{
+  float: left;
+  margin-left: 100px;
+  margin-top: -120px;
+}
+
+.snakes{
+  float: right;
+  margin-right: 320px;
+  margin-top: -270px;
+}
+
+.chart_explain0 p{
+  font-size: 18px;
+  font-family: "san-serif",Arial,Helvetica;
+  padding: 0;
+  padding-left: 370px;
+  padding-right: 520px;
+  padding-top: 100px;
+  line-height: 1.2em;
+  color: #673131;
+  font-weight: bold;
+}
+
+#vis5 .line:hover{
+  cursor:default;
+}
+
+#vis6 .line:hover{
+  cursor:default;
+}
+
+.layer:hover{
+  cursor: pointer;
+}
+
+.png2 {
+  margin-top: 50px;
+}
+
+.front_container4 {
+    width: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    padding: 10px;
+    border: #555 1px solid;
+    opacity: 0;
+}
+
+.front_part3 .title {
+  font-family: Arial,Helvetica,"san-serif";
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #262626;
+  line-height: 1.2em;
+  margin-left: 100px;
+}
+
+.front_part3 {
+    width: 600px;
+    height: 400px;
+    margin-left: 0px;
+}

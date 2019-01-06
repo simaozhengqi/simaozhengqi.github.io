@@ -1,0 +1,301 @@
+category,state,number
+Race/Ethnicity/Ancestry,Alabama,8
+Race/Ethnicity/Ancestry,Alaska,7
+Race/Ethnicity/Ancestry,Arizona,162
+Race/Ethnicity/Ancestry,Arkansas,3
+Race/Ethnicity/Ancestry,California,427
+Race/Ethnicity/Ancestry,Colorado,65
+Race/Ethnicity/Ancestry,Connecticut,62
+Race/Ethnicity/Ancestry,Delaware,9
+Race/Ethnicity/Ancestry,District of Columbia,23
+Race/Ethnicity/Ancestry,Florida,44
+Race/Ethnicity/Ancestry,Georgia,32
+Race/Ethnicity/Ancestry,Idaho,14
+Race/Ethnicity/Ancestry,Illinois,59
+Race/Ethnicity/Ancestry,Indiana,43
+Race/Ethnicity/Ancestry,Iowa,3
+Race/Ethnicity/Ancestry,Kansas,46
+Race/Ethnicity/Ancestry,Kentucky,113
+Race/Ethnicity/Ancestry,Louisiana,22
+Race/Ethnicity/Ancestry,Maine,16
+Race/Ethnicity/Ancestry,Maryland,22
+Race/Ethnicity/Ancestry,Massachusetts,198
+Race/Ethnicity/Ancestry,Michigan,198
+Race/Ethnicity/Ancestry,Minnesota,58
+Race/Ethnicity/Ancestry,Missouri,70
+Race/Ethnicity/Ancestry,Montana,28
+Race/Ethnicity/Ancestry,Nebraska,10
+Race/Ethnicity/Ancestry,Nevada,36
+Race/Ethnicity/Ancestry,New Hampshire,8
+Race/Ethnicity/Ancestry,New Jersey,169
+Race/Ethnicity/Ancestry,New Mexico,8
+Race/Ethnicity/Ancestry,New York,136
+Race/Ethnicity/Ancestry,North Carolina,106
+Race/Ethnicity/Ancestry,North Dakota,29
+Race/Ethnicity/Ancestry,Ohio,309
+Race/Ethnicity/Ancestry,Oklahoma,27
+Race/Ethnicity/Ancestry,Oregon,41
+Race/Ethnicity/Ancestry,Pennsylvania,40
+Race/Ethnicity/Ancestry,Rhode Island,6
+Race/Ethnicity/Ancestry,South Carolina,44
+Race/Ethnicity/Ancestry,South Dakota,9
+Race/Ethnicity/Ancestry,Tennessee,157
+Race/Ethnicity/Ancestry,Texas,107
+Race/Ethnicity/Ancestry,Utah,29
+Race/Ethnicity/Ancestry,Vermont,5
+Race/Ethnicity/Ancestry,Virginia,108
+Race/Ethnicity/Ancestry,Washington,160
+Race/Ethnicity/Ancestry,West Virginia,28
+Race/Ethnicity/Ancestry,Wisconsin,27
+Race/Ethnicity/Ancestry,Wyoming,2
+Race/Ethnicity/Ancestry,Other Outlying Areas,1
+Religion,Alabama,0
+Religion,Alaska,0
+Religion,Arizona,52
+Religion,Arkansas,0
+Religion,California,191
+Religion,Colorado,16
+Religion,Connecticut,19
+Religion,Delaware,2
+Religion,District of Columbia,5
+Religion,Florida,13
+Religion,Georgia,5
+Religion,Idaho,12
+Religion,Illinois,12
+Religion,Indiana,9
+Religion,Iowa,1
+Religion,Kansas,8
+Religion,Kentucky,53
+Religion,Louisiana,11
+Religion,Maine,9
+Religion,Maryland,14
+Religion,Massachusetts,81
+Religion,Michigan,48
+Religion,Minnesota,20
+Religion,Missouri,19
+Religion,Montana,14
+Religion,Nebraska,1
+Religion,Nevada,5
+Religion,New Hampshire,3
+Religion,New Jersey,125
+Religion,New Mexico,2
+Religion,New York,256
+Religion,North Carolina,17
+Religion,North Dakota,3
+Religion,Ohio,39
+Religion,Oklahoma,3
+Religion,Oregon,9
+Religion,Pennsylvania,12
+Religion,Rhode Island,7
+Religion,South Carolina,2
+Religion,South Dakota,2
+Religion,Tennessee,28
+Religion,Texas,36
+Religion,Utah,11
+Religion,Vermont,0
+Religion,Virginia,24
+Religion,Washington,43
+Religion,West Virginia,3
+Religion,Wisconsin,8
+Religion,Wyoming,0
+Religion,Other Outlying Areas,0
+Sexual orientation,Alabama,2
+Sexual orientation,Alaska,1
+Sexual orientation,Arizona,57
+Sexual orientation,Arkansas,2
+Sexual orientation,California,188
+Sexual orientation,Colorado,20
+Sexual orientation,Connecticut,9
+Sexual orientation,Delaware,0
+Sexual orientation,District of Columbia,27
+Sexual orientation,Florida,14
+Sexual orientation,Georgia,7
+Sexual orientation,Idaho,6
+Sexual orientation,Illinois,16
+Sexual orientation,Indiana,14
+Sexual orientation,Iowa,1
+Sexual orientation,Kansas,8
+Sexual orientation,Kentucky,19
+Sexual orientation,Louisiana,5
+Sexual orientation,Maine,13
+Sexual orientation,Maryland,7
+Sexual orientation,Massachusetts,81
+Sexual orientation,Michigan,51
+Sexual orientation,Minnesota,31
+Sexual orientation,Missouri,8
+Sexual orientation,Montana,2
+Sexual orientation,Nebraska,7
+Sexual orientation,Nevada,17
+Sexual orientation,New Hampshire,2
+Sexual orientation,New Jersey,33
+Sexual orientation,New Mexico,3
+Sexual orientation,New York,104
+Sexual orientation,North Carolina,37
+Sexual orientation,North Dakota,4
+Sexual orientation,Ohio,58
+Sexual orientation,Oklahoma,7
+Sexual orientation,Oregon,11
+Sexual orientation,Pennsylvania,11
+Sexual orientation,Rhode Island,5
+Sexual orientation,South Carolina,7
+Sexual orientation,South Dakota,5
+Sexual orientation,Tennessee,26
+Sexual orientation,Texas,41
+Sexual orientation,Utah,7
+Sexual orientation,Vermont,2
+Sexual orientation,Virginia,24
+Sexual orientation,Washington,57
+Sexual orientation,West Virginia,6
+Sexual orientation,Wisconsin,7
+Sexual orientation,Wyoming,0
+Sexual orientation,Other Outlying Areas,0
+Disability,Alabama,0
+Disability,Alaska,0
+Disability,Arizona,5
+Disability,Arkansas,0
+Disability,California,4
+Disability,Colorado,3
+Disability,Connecticut,4
+Disability,Delaware,0
+Disability,District of Columbia,0
+Disability,Florida,0
+Disability,Georgia,0
+Disability,Idaho,2
+Disability,Illinois,0
+Disability,Indiana,0
+Disability,Iowa,1
+Disability,Kansas,0
+Disability,Kentucky,2
+Disability,Louisiana,0
+Disability,Maine,0
+Disability,Maryland,0
+Disability,Massachusetts,4
+Disability,Michigan,11
+Disability,Minnesota,0
+Disability,Missouri,1
+Disability,Montana,1
+Disability,Nebraska,0
+Disability,Nevada,0
+Disability,New Hampshire,0
+Disability,New Jersey,3
+Disability,New Mexico,0
+Disability,New York,1
+Disability,North Carolina,2
+Disability,North Dakota,0
+Disability,Ohio,10
+Disability,Oklahoma,0
+Disability,Oregon,5
+Disability,Pennsylvania,0
+Disability,Rhode Island,0
+Disability,South Carolina,2
+Disability,South Dakota,0
+Disability,Tennessee,5
+Disability,Texas,1
+Disability,Utah,0
+Disability,Vermont,0
+Disability,Virginia,2
+Disability,Washington,3
+Disability,West Virginia,4
+Disability,Wisconsin,0
+Disability,Wyoming,0
+Disability,Other Outlying Areas,0
+Gender,Alabama,0
+Gender,Alaska,0
+Gender,Arizona,0
+Gender,Arkansas,0
+Gender,California,1
+Gender,Colorado,0
+Gender,Connecticut,0
+Gender,Delaware,0
+Gender,District of Columbia,0
+Gender,Florida,0
+Gender,Georgia,0
+Gender,Idaho,0
+Gender,Illinois,1
+Gender,Indiana,1
+Gender,Iowa,0
+Gender,Kansas,1
+Gender,Kentucky,0
+Gender,Louisiana,0
+Gender,Maine,0
+Gender,Maryland,0
+Gender,Massachusetts,15
+Gender,Michigan,1
+Gender,Minnesota,0
+Gender,Missouri,0
+Gender,Montana,0
+Gender,Nebraska,0
+Gender,Nevada,0
+Gender,New Hampshire,0
+Gender,New Jersey,0
+Gender,New Mexico,0
+Gender,New York,0
+Gender,North Carolina,0
+Gender,North Dakota,0
+Gender,Ohio,0
+Gender,Oklahoma,0
+Gender,Oregon,0
+Gender,Pennsylvania,0
+Gender,Rhode Island,0
+Gender,South Carolina,0
+Gender,South Dakota,0
+Gender,Tennessee,1
+Gender,Texas,1
+Gender,Utah,0
+Gender,Vermont,0
+Gender,Virginia,0
+Gender,Washington,3
+Gender,West Virginia,0
+Gender,Wisconsin,1
+Gender,Wyoming,0
+Gender,Other Outlying Areas,0
+Gender Identity,Alabama,0
+Gender Identity,Alaska,0
+Gender Identity,Arizona,0
+Gender Identity,Arkansas,0
+Gender Identity,California,26
+Gender Identity,Colorado,3
+Gender Identity,Connecticut,0
+Gender Identity,Delaware,0
+Gender Identity,District of Columbia,10
+Gender Identity,Florida,1
+Gender Identity,Georgia,0
+Gender Identity,Idaho,0
+Gender Identity,Illinois,2
+Gender Identity,Indiana,0
+Gender Identity,Iowa,0
+Gender Identity,Kansas,0
+Gender Identity,Kentucky,1
+Gender Identity,Louisiana,0
+Gender Identity,Maine,0
+Gender Identity,Maryland,0
+Gender Identity,Massachusetts,45
+Gender Identity,Michigan,0
+Gender Identity,Minnesota,0
+Gender Identity,Missouri,2
+Gender Identity,Montana,0
+Gender Identity,Nebraska,1
+Gender Identity,Nevada,0
+Gender Identity,New Hampshire,0
+Gender Identity,New Jersey,0
+Gender Identity,New Mexico,0
+Gender Identity,New York,3
+Gender Identity,North Carolina,0
+Gender Identity,North Dakota,0
+Gender Identity,Ohio,0
+Gender Identity,Oklahoma,0
+Gender Identity,Oregon,0
+Gender Identity,Pennsylvania,1
+Gender Identity,Rhode Island,0
+Gender Identity,South Carolina,0
+Gender Identity,South Dakota,0
+Gender Identity,Tennessee,4
+Gender Identity,Texas,5
+Gender Identity,Utah,0
+Gender Identity,Vermont,1
+Gender Identity,Virginia,0
+Gender Identity,Washington,9
+Gender Identity,West Virginia,0
+Gender Identity,Wisconsin,0
+Gender Identity,Wyoming,0
+Gender Identity,Other Outlying Areas,0

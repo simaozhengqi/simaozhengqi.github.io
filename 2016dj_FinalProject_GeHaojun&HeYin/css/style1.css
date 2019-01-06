@@ -1,0 +1,60 @@
+.front, .back,.back2 {
+	position: absolute;
+	top: 0;
+}
+
+.back {
+	position: fixed;
+    width: 1300px;
+    height: 100vh;
+    z-index: 99;
+    margin-right: 10px;
+    margin-left: 800px;
+}
+
+.back2 {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.front_part {
+	width: 600px;
+	height: 500px;
+    margin-left: 0px;
+}
+
+.front_part2 {
+    width: 1400px;
+    height: 500px;
+    margin-left: 0px;
+}
+
+.front_container {
+    width: 0px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    margin-left: 100px;
+    padding: 10px;
+    border: #555 1px solid;
+    opacity: 0;
+}
+
+@media screen and (min-width: 800px){
+    .front_container {
+        width: 350px;
+        margin-top: 50vh;
+        margin-left: 800px;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .front_container {
+        width: 600px;
+        margin-left: 800px;
+        display: none;
+    }
+}
