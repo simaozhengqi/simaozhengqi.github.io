@@ -10,10 +10,18 @@
 
  
  <style>
+ body{
+          margin: 0;
+          padding: 0;
+          background-color: rgb(245,245,245);
+          width: 100%;
+          margin-right: 0;
+          font-family: "微软雅黑", "黑体", "宋体";
+        }
 .headpic{
           width: 100%;
           height: 100%;
-          background-color: #dddddd;
+          background-color: black;
         }
 
 .main{
@@ -34,28 +42,26 @@
           background-color: #3a3a3a;
           margin-bottom: 10%;
           margin: 3% auto;
+          z-index: 1;
         }
          #pic3{
           width: 60%;
           height: 40%;
           /*background-color: #3a3a3a;*/
           margin-bottom: 10%;
-          margin-left: 30%;
+          margin-left: 20%;
           margin-top: 5%;
           /*margin: 3% auto;*/
         }
-        #pic6{
-          width: 60%;
-          height: 40%;
-        /*  background-color: #3a3a3a;*/
-          margin-bottom: 10%;
-          margin: 3% auto;
-        }
- .subTitle{
+
+ .subTitle2{
           font-size: 2em;
+          float: left;
+          margin-left: -50%;
+          margin-top: 30%;
         }
  footer{
-          height: 9%;
+          height: 1%;
           text-align: left;
           /*padding: 5% auto 5% auto;*/
           padding-top: 0.8%;
@@ -67,6 +73,7 @@
           margin-top: 10%;
           background-color: #3a3a3a;
           color:white;
+          margin-bottom: 0;
         }
 #main2 {
 	margin-top:0;
@@ -86,8 +93,6 @@ width:95vw;
 	height:0px;
 	margin:0;
 	padding:0;}
-
-
 	
 .front p {
 	height:20px;
@@ -112,7 +117,8 @@ width:95vw;
   line-height:40px;
   height:30vh;
   }
-.tooltip {		position:absolute;
+.tooltip {		
+  position:absolute;
 				padding:20px;
 				margin:0 auto;
 				text-align:center;
@@ -133,7 +139,132 @@ circle:hover {
 	margin-bottom:0;
 	padding-bottom:0;
 	}
- </style>
+  .change{
+
+  }
+  .picTitle{
+    text-align: center;
+    margin-bottom: -2%;
+    z-index: 10;
+    margin-left: -10%;
+    font-size: 0.9em;
+  }
+  .source{
+    margin-top: -2%;
+    z-index: 10;
+    margin-left: 80%;
+    font-size: 0.8em;
+  }
+  .bigTitle1{
+    font-size: 1.5em;
+    text-align: center;
+    z-index: 10;
+    height:50%;
+    color: rgb(245,245,245);
+    margin-top: 0%;
+  }
+  .bigTitle2{
+    font-size:2em; 
+    text-align: center;
+    z-index: 10;
+    height: 50%;
+    color: rgb(245,245,245);
+    margin-top:0%;
+  }
+  .part1{
+    float: right;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width: 50%;
+
+  }
+  .firstPic{
+    float:left;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width:50%;
+    margin-left: -20%;
+  }
+    .part2{
+    float: right;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width: 50%;
+
+  }
+  .pic2{
+    float:left;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width:50%;
+    margin-left: -10%;
+  }
+.part4{
+    float: left;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width: 50%;
+    margin-top: 40%;
+    margin-left: -50%;
+  }
+.pic4{
+    float:right;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width:60%;
+    margin-right: -10%;
+    margin-top: 35%;
+  }
+  .clearfix:after{
+  content:".";
+  display:block;
+  height:0;
+  visibility:hidden;
+  clear:both;
+}
+.part5{
+    float: left;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width: 50%;
+    margin-top: 100%;
+    margin-left: -50%;
+  }
+.pic6{
+  width: 60%;
+  height: 40%;
+  margin-bottom: 10%;
+  margin: 3% auto;
+  float: right;
+  margin-right:-10%;
+  margin-top: 10%;
+}
+.part6{
+    float: left;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width: 50%;
+    margin-top: 65%;
+    margin-left: -50%;
+  }
+  .pic5{
+  width: 60%;
+  height: 40%;
+  margin-bottom: 10%;
+  margin: 3% auto;
+  float: right;
+  margin-right:-10%;
+  margin-top: 10%;
+}
+.part7{
+    float: left;
+    line-height: 200%;
+    margin-bottom: 1%;
+    width: 120%;
+    margin-top: 5%;
+    margin-left: -10%;
+  }
+</style>
 </head>
 
 <body>
@@ -141,21 +272,33 @@ circle:hover {
 <img src="headpic.jpg" width="100%" height="100%">
 </div> -->
 <div class="headpic">
-  <!-- <img src="movie.gif" width="100%" height="100%"> -->
-  <video autoplay="autoplay" width="100%" height="100%">
-<!--   <source src="movie.ogg" type="video/ogg"> -->
+  <img src="movie2.gif" width="100%" height="100%">
+<!--   <video autoplay="autoplay" width="100%" height="100%">
+  <source src="movie.ogg" type="video/ogg">
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.webm" type="video/webm">
   <object data="movie.mp4" width="100%" height="100%">
   <embed width="100%" height="100%" src="movie.swf">
   </object>
-</video>
+</video> -->
+<div class="bigTitle1">视觉中国事件：</div>
+<div class="bigTitle2">图片大鳄背后的灰色生意经</div>
 </div>
-<div class="main">
-<div class="part">
+<div class="change">
+<img src="change5.png" width="100%" height="100%">
+</div>
+
+
+
+<div class="main clearfix">
+<div class="part1 clearfix">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一张黑洞图引发版权界大地震，“流氓模式”大起底，1000多万超话网友声讨的视觉中国到底是行业良心还是版权猎手？公开资料显示，2018第三季度公司实现营收2.20亿元，占上市公司总收入81.81%的公司核心主业：“视觉内容与服务”实现营业收入5.73亿元，而这其中就包括了饱受诟病的大量版权相关营收。</p>
-    <div class="pic"><img src="heat.jpg" width="100%" height="100%"></div>
-  </div>
+</div>
+<div class="firstPic clearfix">
+    <div class="picTitle">“视觉中国”的搜索热度大起大落</div>
+    <div class="pic"><img src="firstLine.png" width="160%" height="160%"></div>
+    <div class="source">根据公开资料整理</div>
+</div>
 </div> 
   
 <p>&nbsp;</p>
@@ -171,7 +314,7 @@ circle:hover {
 </div>
 
 <div class="front_container" id="front2">
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是，视觉中国所涉诉讼绝大部分由其子公司作为上诉人，巧妙地降低了自己的司法风险。</p>
+<!-- <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是，视觉中国所涉诉讼绝大部分由其子公司作为上诉人，巧妙地降低了自己的司法风险。</p> -->
 <!-- <div id="pic3"><img src="companies.png" width="50%" height="70%"></div> -->
 </div>
 <div class="front_container" id="front3">
@@ -192,45 +335,61 @@ circle:hover {
 <!-- <div class="part">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是，视觉中国所涉诉讼绝大部分由其子公司作为上诉人，巧妙地降低了自己的司法风险。</p>
     <div class="pic"><img src="heat.jpg" width="100%" height="100%"></div>
+  </div> -->
+
+
+<div class="main clearfix" id="main2">
+<div class="part2 clearfix">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是，视觉中国所涉诉讼绝大部分由其子公司作为上诉人，巧妙地降低了自己的司法风险。</p>
+    
   </div>
- -->
+<div class="pic2 clearfix"><img src="companies.png" width="100%" height="100%"></div>
 
-
-<div class="main" id="main2">
-
- <div class="part">
-<!--     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是，视觉中国所涉诉讼绝大部分由其子公司作为上诉人，巧妙地降低了自己的司法风险。</p> -->
+<!--  <div class="part">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是，视觉中国所涉诉讼绝大部分由其子公司作为上诉人，巧妙地降低了自己的司法风险。</p>
     <div id="pic3"><img src="movie2.gif" width="100%" height="100%"></div>
-  </div>
+  </div> -->
 
-<div class="subTitle">
+<div class="subTitle2 clearfix">
       <p>屡试不爽的“维权”流程</p>
 </div>
 
-<div class="part">
+<!-- <p>&nbsp;</p> -->
+<div class="part4 clearfix">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诉讼之外，视觉中国还有更多的维权事件没有进入司法程序。实际上，视觉中国、全景视觉和映脉旗下的图片网站已经形成了一个较为固定的流程。</p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以“煎蛋网“为例，视觉中国首先给在翻译外稿时转载Getty图库图片的煎蛋网发去通知，要求赔付侵权款目，在当事人的“求饶”下，视觉中国给出了“合作方案”，但价格导向侵权者购买视觉中国的年包业务。大多数情况下，“侵权者”就老老实实地就范，选择更为“经济”的年包业务，这样一笔维权也就成了视觉中国的一笔用户增收。但也有一些人对视觉中国提出的方案并不买账，这时，视觉中国将以单独赔偿的“天价”作为噱头来要挟。事情至此，“侵权者”所想的鱼死网破对薄公堂到头来几乎都是无奈赔付。</p>
-    <div class="pic"><img src="howToCheat.jpg" width="100%" height="100%"></div>
-  </div>
 
-<div class="part">
+  </div>
+      <div class="pic4 clearfix"><img src="howToCheat3.jpg" width="110%" height="110%"></div>
+
+<p>&nbsp;</p>
+<div class="part5 clearfix">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我国对于文字和音视频的版权保护已经有所发展，从图片版权相关的历年法律文书数量先增后减的趋势中也能看出我国对版权保护的力度加大，总体教育效果明显。</p>
-    <div id="pic6"></div>
-  </div>
+    <div class="picTitle">图片版权相关的历年法律文书数量先增后减</div>
 
-       <div class="part">
+    <div class="source">来源：聚法案例</div>
+
+  </div>
+   <div class="pic6 clearfix"><img src="lawNumber.png" width="100%" height="100%"></div>
+
+<p>&nbsp;</p>
+       <div class="part6 clearfix">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但是，图片的创作成本和获得成本不如音视频高，比对难度又比文字要大，种种因素使得有关图片的版权保护工作开展得并不理想。从各类版权作品登记数量来看，摄影类和美术类占比较大，且都与图片相关。种种资料和事件都体现了规范图片版权保护工作的必要性。</p>
-    <div class="pic"><img src="treeMap.png" width="100%" height="100%"></div>
-  </div>
+    <div class="picTitle">图片相关版权作品占比较大</div>
 
-         <div class="part">
+    <div class="source">来源：国家版权局</div>
+  </div>
+<div class="pic5 clearfix"><img src="treeMap.png" width="100%" height="100%"></div>
+
+<p>&nbsp;</p>
+         <div class="part7 clearfix">
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一面是媒体、自媒体乃至普通人对图片的大量使用需求，一面是法制精神下对版权的保护。究竟用什么样的图该付什么样的代价，还是一个需要讨论的问题。</p>
   </div>
 
 
 </div>
 
-    <footer>
+    <footer class="clearfix">
     <p>团队成员：张芮祎 李明辉 果雅迪 何茵</p>
     <p>地址：北京市朝阳区三间房街道定福庄东街1号中国传媒大学</p>
     <p>邮箱: 15041172512@163.com</p>
@@ -246,7 +405,6 @@ var scene1 = new ScrollMagic.Scene({
 })
 .setPin('#tu') 
 .addTo(controller);
-
 
 
 </script>
