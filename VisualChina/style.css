@@ -1,0 +1,42 @@
+
+.move{
+    margin-left: 450px;
+}
+.circle:hover {
+    cursor: pointer;
+}
+/*svg {
+    background-color: white;
+    margin-left: -20%;
+}*/
+
+.axis path{
+   /* stroke:white;*/
+    }/*??*/
+.axis line {
+    fill:none;
+    stroke:black;
+    shape-rendering: crispEdges;/*指定SVG元素<path>的渲染模式。*/
+}
+
+.axis text {
+    font-family: sans-serif;;
+    fill: black;
+    font-size:11px;
+}
+
+.yTitle{
+    font-family: sans-serif;
+}
+.tooltip {
+    position: absolute;
+    z-index: 10;
+}
+
+.tooltip p {
+    background-color: white;
+    color: steelblue;
+    border: steelblue 1px solid;
+    padding: 2px;
+    text-align: left;
+}
